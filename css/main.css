@@ -384,6 +384,13 @@ a:focus, button:focus, .btn:focus,
     height: 76px;
     padding: 9px 25px 10px 15px;
     margin-right: 0;
+    line-height: 2.9;
+}
+
+.logo a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
 }
 
 .menu-two .fixed-top {
