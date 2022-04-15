@@ -763,13 +763,13 @@ ul.sub-menu {
 
 .exprience-section .exprience {
     overflow: hidden;
+    display: flex;
+    align-items: baseline;
 }
 
 .exprience-image {
-    float: left;
     margin-right: 20px;
-    width: 175px;
-    height: 160px;
+    width: 25%;
     overflow: hidden;
 }
 
@@ -792,6 +792,7 @@ ul.sub-menu {
 .exprience-info {
     font-size: 14px;
     line-height: 24px;
+    width: 75%;
 }
 
 .exprience-info h3 {
@@ -799,11 +800,24 @@ ul.sub-menu {
     line-height: 28px;
 }
 
+.exprience-info h3 span{
+    color: #a3a3a3;
+    font-size: 20px;
+}
+
 .exprience-info h5 {
     font-size: 16px;
     font-weight: normal;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+.exprience-info ul{
+    padding-left: 18px;
+}
+
+.exprience-info ul li{
+    list-style: disc;
 }
 
 
@@ -814,6 +828,10 @@ ul.sub-menu {
     line-height: 24px;
     padding-bottom: 5px;
     padding-top: 10px;
+}
+
+.education-info img{
+    width: 100px;
 }
 
 .education-info h3 {
@@ -1202,6 +1220,10 @@ img.mfp-img {
     color: #87c05e;
 }
 
+.download-resume{
+    padding: 25px 0;
+    text-align: center;
+}
 
 /* Profile Section */
 
@@ -1255,10 +1277,6 @@ img.mfp-img {
 
 .career-objective {
     padding-bottom: 10px;
-}
-
-.sub-content {
-    padding-left: 70px;
 }
 
 .history-content .title {
@@ -1318,10 +1336,6 @@ img.mfp-img {
     margin: 25px 0;
 }
 
-.language-proficiency {
-    padding-bottom: 35px;
-}
-
 .language-proficiency .icons {
     color: #b90162;
 }
@@ -1331,16 +1345,16 @@ img.mfp-img {
     font-weight: 700;
     margin-bottom: 5px;
     margin-top: 0;
+    width: 50%;
 }
 
 .language-proficiency ul>li {
-   display: inline-block;
+   display: flex;
+   margin-bottom: 10px;
 }
 
 .language-proficiency ul>li+li {
-    margin-left: 20px;
-    padding-left: 30px;
-    border-left: 1px solid #f1f1f1;
+    margin-bottom: 10px;
 }
 
 .language-proficiency ul li ul li {
@@ -1352,6 +1366,10 @@ img.mfp-img {
     margin-left: 5px;
     border-left: 0;
     padding-left: 0;
+}
+
+.language-proficiency .sub-content .list-inline ul{
+    width: 50%;
 }
 
 .expertise {
