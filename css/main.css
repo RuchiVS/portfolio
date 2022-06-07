@@ -864,6 +864,12 @@ ul.sub-menu {
     overflow: hidden;
 }
 
+.portfolio-item  img{
+    height: 250px;
+    object-fit: cover;
+    background-color: #ffffff;
+}
+
 .portfolio-overlay {
     position: absolute;
     top: -100%;
