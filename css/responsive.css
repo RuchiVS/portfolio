@@ -456,8 +456,13 @@
 		margin-right: 10px;
 	}
 	.language-proficiency ul>li {
-		width: 49%;
+		width: 100%;
 		margin-bottom: 20px;
+		text-align: left;
+	}
+	.language-proficiency ul>li ul{
+		width: auto!important;
+		margin-left: 25px;
 	}
 	.language-proficiency ul>li ul li {
 		width: inherit;
