@@ -830,15 +830,26 @@ ul.sub-menu {
 
 /* Education Section */
 
+.education-section .section-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.education-section .text-info{
+    width: 100%;
+}
+
 .education-info {
     font-size: 14px;
     line-height: 24px;
     padding-bottom: 5px;
     padding-top: 10px;
+    width: auto;
 }
 
 .education-info img{
-    width: 100px;
+    height: 100px;
+    width: 125px;
+    object-fit: cover;
 }
 
 .education-info h3 {
@@ -848,7 +859,6 @@ ul.sub-menu {
 .education-info h5,
 .education-info h6 {
     font-size: 16px;
-    line-height: 12px;
 }
 
 .education-info h6 {
@@ -856,7 +866,6 @@ ul.sub-menu {
 }
 
 /* Portfolio Section */
-
 
 .portfolio-item {
     position: relative;
@@ -882,7 +891,8 @@ ul.sub-menu {
     -moz-transition: all 500ms;
     -ms-transition: all 500ms;
     -o-transition: all 500ms;
-    transition: all 500ms;    
+    transition: all 500ms;
+    cursor: pointer;
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -937,6 +947,20 @@ img.mfp-img {
     color: #fff;
     top: 50px;
     margin-right: -20px;
+}
+
+.portfolio-content .project-popup .project-image img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-content .project-popup .project-description{
+    margin: 40px 0 20px 0;
+}
+
+.portfolio-content .project-popup .project-description p{
+    text-align: justify;
 }
 
 
