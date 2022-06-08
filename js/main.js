@@ -172,4 +172,26 @@ function Scroll() {
     menuToggle();
 }()); 
 
+// -------------------------------------------------------------
+//  Download Resume
+// -------------------------------------------------------------
+// $('#GetFile').on('click', function () {
+//     $.ajax({
+//         url: 'https://github.com/RuchiVS/image-upload/blob/main/CV_Ruchi_shah.pdf',
+//         method: 'GET',
+//         xhrFields: {
+//             responseType: 'blob'
+//         },
+//         success: function (data) {
+//             var a = document.createElement('a');
+//             var url = window.URL.createObjectURL(data);
+//             a.href = url;
+//             a.download = 'ruchi_shah_cv.pdf';
+//             document.body.append(a);
+//             a.click();
+//             a.remove();
+//             window.URL.revokeObjectURL(url);
+//         }
+//     });
+// });
 
